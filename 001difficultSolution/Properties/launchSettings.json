@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "001difficultSolution": {
+      "commandName": "Project",
+      "commandLineArgs": "20 + 20 * 3 - 20 / 5"
+    }
+  }
+}
