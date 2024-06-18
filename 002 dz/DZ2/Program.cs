@@ -123,10 +123,29 @@ namespace DZ2
 
         static void Main(string[] args)
         {
-            int s = 5; //number of strings
-            int c = 5; //number of colums
+            
+            // простой случай #################################
+            int[,] a = { { 7, 3, 2 }, { 4, 9, 6 }, { 1, 8, 5 } };
+            PrintArr2(a);
+            Console.WriteLine();
 
-            //формируем массив используя цифры от 11 - 99, потом печатаем.
+            int[] arrSimple = Arr2ToArr1(a);
+
+            PrintArr1(arrSimple);
+            Console.WriteLine();
+            int[] arrsortSimple = SortArr1(arrSimple);
+            Console.WriteLine("\nSIMPLE RESULT");
+            int[,] ArrResultSimple = Arr1ToArr2(arrsortSimple, 3, 3);
+            PrintArr2(ArrResultSimple);
+            Console.WriteLine();
+
+
+            // посложнее общий случай ################################
+            Console.WriteLine("Difficult case");
+            int s = 6; //number of strings
+            int c = 6; //number of colums
+
+            //формируем случайный массив используя цифры от 11 - 99, потом печатаем.
             int[,] Array = Array2RandFill(11, 99, s, c);
             PrintArr2(Array);
             Console.WriteLine();
@@ -141,9 +160,10 @@ namespace DZ2
 
 
             // переводим в двухмерный массив и печатаем его
-            Console.WriteLine();
+            Console.WriteLine("\nRESULT");
             int[,] ArrResult = Arr1ToArr2(arrsort,s,c);
             PrintArr2(ArrResult);
+            Console.WriteLine();
 
 
         }
