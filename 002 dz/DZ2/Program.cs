@@ -141,7 +141,7 @@ namespace DZ2
 
 
             // посложнее общий случай ################################
-            Console.WriteLine("Difficult case");
+            Console.WriteLine("Difficult Random Case");
             int s = 6; //number of strings
             int c = 6; //number of colums
 
