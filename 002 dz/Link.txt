@@ -1,1 +1,1 @@
-https://github.com/VladimirVjatkin/DzCsharpUglubleny/blob/376a6343942e45316d854e01ad37ee870a9ba907/002%20dz/DZ2/Program.cs
+https://github.com/VladimirVjatkin/DzCsharpUglubleny/blob/3fe89633bfd6659bea5f704f649b11397a2bd5b8/002%20dz/DZ2/Program.cs
