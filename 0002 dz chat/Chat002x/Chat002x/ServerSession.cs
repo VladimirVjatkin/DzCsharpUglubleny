@@ -123,7 +123,7 @@ namespace Chat002x
                         Console.WriteLine($"Thread ID: {entry.Key.ManagedThreadId}, Last Used: {entry.Value}");
                     }
                 }
-                Thread.Sleep(9000); // Пауза 5 секунд перед следующей проверкой
+                Thread.Sleep(9000); // Пауза 9 секунд перед следующей проверкой
             }
         }
 
