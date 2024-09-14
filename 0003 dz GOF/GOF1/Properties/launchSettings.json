@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GOF1": {
+      "commandName": "Project",
+      "commandLineArgs": "start"
+    }
+  }
+}
